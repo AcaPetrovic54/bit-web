@@ -1,0 +1,79 @@
+<!-- 
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>First group</h3>
+    <fieldset>
+        <legend>Personal data</legend>
+        <label for="">
+           Name: <input type="text" name="text">
+            <br>
+            Email: <input type="text" name="email">
+            <br>
+            Phone: <input type="tel" name="telephone">
+        </label>
+    </fieldset>
+
+<!--
+    Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+-->
+<h3>Second group</h3>
+<fieldset>
+    <legend>Location</legend>
+    <label for="">
+       City: <input type="text" name="city">
+        <br>
+        Street: <input type="text" name="street">
+        <br>
+        Street number: <input type="number" min=1 max=100 name="streetno.">
+    </label>
+</fieldset>
+<!--
+    Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose
+-->
+
+<h3>Third group</h3>
+<fieldset>
+    <legend>Event info</legend>
+    <label for="">
+        
+            <br>
+            <label for="event">Event type</label>
+            <select name="event" id="event">
+              <option value="birthday">birthday</option>  
+              <option value="wedding" selected="selected">wedding</option>
+              <option value="company">company</option>
+            </select>
+        
+        <br>
+        Number of guests: <input type="number" min=20 max=100 step=2 name="guests">
+        <br>
+        number you choose <input type=text placeholder="100" >
+    </label>
+</fieldset>
+</body>
+</html>

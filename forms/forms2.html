@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <p>This is where the form controls will apear</p>
+        <p>Username:
+            <input type="text" name="username" size="20" maxlength="30">
+        </p>
+        <br>
+        <p>Password:
+            <input type="password" name="password" size="20" maxlength="30">
+        </p>
+        <p>What did you think:
+            <br>
+            <textarea name="comments" rows="5" cols="20">Enter your comments</textarea>
+        </p> 
+        <p>Please select genre:
+            <br>
+            <input type="radio" name="genre" value="Rock" checked="checked">Rock
+            <input type="radio" name="genre" value="Pop">Pop
+            <input type="radio" name="genre" value="Jazz">Jazz
+        </p>
+        <p>Please select service(s):
+            <br>
+            <input type="checkbox" name="service[]" value="itunes" checked="checked">iTunes
+            <input type="checkbox" name="service[]" value="last.fm">Last.fm
+            <input type="checkbox" name="service[]" value="spotyfu">Spotify
+        </p>
+        <p>What device do you listen:
+            <br>
+            <select name="devices" id="">
+              <option value="ipod" selected="selected">iPod</option>  
+              <option value="radio">Radio</option>
+              <option value="computer">Computer</option>
+            </select>
+        </p>
+        <p>Do you play?
+            <br>
+            <select name="instruments[]" size="3" multiple>
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
+                <option value="bass">Bass</option>
+            </select>
+        </p>
+        <p>Upload:</p>
+        <input type="file" name="user-song">
+        <br>
+        <input type="submit" value="upload">
+        <br>
+        <p>Suscribe</p>
+        Email: <input type="text" name="email">
+        <input type="submit" name="suscribe" value="Suscribe">
+        <br>
+        <p>Suscribe to our email:</p>
+        Email: <input type="text" name="email">
+        <br>
+        <input type="image" src="https://www.baldwinpl.org/wp-content/uploads/2018/04/Submit-Button-Forms.jpg" width="200" height="60" alt="Submit">
+        <br>
+        Email: <input type="text" name="email">
+        <br>
+        Pin: <input type="text" name="pin" maxlength="4">
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        <br>
+        <button>
+            <img src="https://www.baldwinpl.org/wp-content/uploads/2018/04/Submit-Button-Forms.jpg" alt="Submit" alt="add" width="200" height="60">
+        </button>
+        <br>
+        Hy, Pera, enter password:
+        <input type="password" name="Password">
+        <input type="hidden" name="username" value="Pera.Petrovic">
+        
+
+
+    </form>
+</body>
+</html>
