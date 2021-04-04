@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+  }
+body {
+    background-color: #eee;  
+    font-family: sans-serif; 
+    
+    color: navy;
+}
+header {
+    background-color: navy;
+    text-align: right;
+    font-variant: small-caps;
+    font-size: 26pt;
+    border-top: #88c 8px solid;
+    border-bottom: #88c 8px solid;
+    color: #ccf;
+    margin-top: 0px;
+    padding: 4px 10px 4px 10px;
+}
+.pasus {
+    padding-top: 16px;   
+}
+
+p {
+width: 80%;
+
+margin: 0px auto 16px auto;
+border-width: 0px 0px 0px 10px;
+border-color: #ccf;
+border-style: solid;
+text-align: left;
+padding: 0px 0px 0px 10px;
+}
+
+aside {
+    width: 30%;
+    text-align: left;
+    margin: 0px 5px 16px auto;
+    font-size: 80%;
+    padding: 12.8px;
+    border-width: 2px 4px 4px 2px;
+    border-style: solid;
+    border-color: rgb(170, 23, 23);
+    background-color: rgb(253, 251, 231);
+
+    color: rgb(170, 23, 23);
+  }
+
+.podnaslov {
+    padding-top: 16px; 
+}
+
+
+h2 {
+    width: 90%;
+    border-width: 0px 0px 5px 0px;
+    border-style: dotted;
+    border-color: #88d;
+    margin: auto;
+}
+table, th, td {
+    margin: 16px auto 16px auto; 
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 3px 9px 3px 9px;
+
+}
+
+
+th {
+    border-color: #a88;
+    border-width: 1px;
+}
+
+td {
+    border-color: #a88;
+    border-width: 1px;
+}
+
+thead {
+    background-color: rgb(66, 66, 97);
+    color: oldlace;
+}
+
+tbody {
+    background-color: #fde;
+    padding: 9px 3px 9px 3px;
+    text-align: left;
+}
+
+tr {
+    border-width: 2px 0px 2px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+div.box {
+    width: 450px;
+    margin: 0px auto 16px auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: springgreen;
+    border-style: double;
+    border-width: 15px;
+    border-color: green;
+    background-color: rgb(236, 250, 236);
+    color: green;
+    padding: 10px;
+}
+ul {
+    width: 70%;
+    margin: 16px auto 16px auto;
+    font-style: italic;
+    font-family: serif, cursive;
+}
+
+a:link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cestitamo {
+    font-weight: bold;
+}

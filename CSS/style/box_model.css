@@ -1,0 +1,51 @@
+
+body {
+    background-color: salmon;
+}
+div.box1 {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+div.box2 {
+    display: none;
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    overflow: scroll;
+}
+
+div.box3 {
+    display: inline-block;
+    background-color: fuchsia;
+    width: 400px;
+    height: 500px;
+    overflow: scroll;
+    visibility: hidden;
+}
+.pa1 {
+     max-width: 300px;
+     background-color: yellow;
+     border: 5px dashed red;
+     padding: 50px;
+
+}
+
+.pa2 {
+    max-height: 200px;
+    background-color: yellow;
+    border: 5px solid green; 
+    padding: 10px;
+}
+
+.pa3 {
+    background-color: yellow;
+    border: 5px dotted firebrick;
+    padding: 50px;
+}
+
+h1 {
+    width: 960px;
+}

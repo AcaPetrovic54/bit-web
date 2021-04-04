@@ -1,0 +1,43 @@
+body {
+    margin: 100px auto 100px auto;
+    border: 2px solid black;
+    width: 800px;
+    padding: 20px;
+}
+
+img {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: #ce3931;
+    color: white;
+    padding: 8px;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-style: solid;border-color: #ce3931;
+
+}
+
+
+table, th, td {
+    padding: 10px auto 10px auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    width: 800px;
+}
+
+
+tbody {
+    color: #294252;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr:hover {
+    background-color: #ffc642 !important;
+}

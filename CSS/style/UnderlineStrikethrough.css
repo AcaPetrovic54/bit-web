@@ -1,0 +1,30 @@
+/* Uppercase &amp; Lowercase/Underline &amp; Strikethrough
+● Create a page with two paragraphs
+● Use CSS to transform all the letters in the first paragraph to uppercase and
+underline them
+● Transform the text in the second paragraph to lowercase and apply strike
+to it*/
+
+@font-face {
+    font-family: "Oi";
+    src: url(./Oi/Oi-Regular.ttf) ;
+}
+h1 {
+    font-family: Oi;
+}
+
+.paragraf1 {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.paragraf2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.paragraf3 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+
+}

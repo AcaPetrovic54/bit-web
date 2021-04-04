@@ -1,0 +1,40 @@
+.prvalista {
+    list-style-type: circle;
+}
+
+.drugalista {
+    list-style-type: square;
+}
+
+.trecalista {
+    list-style-type: upper-alpha;
+}
+
+.cetvrtalista {
+    list-style-type: lower-roman;
+}
+
+.li5 {
+    width: 200px;
+}
+
+ul#image-marker1 {
+    list-style-image: url(./icon.png);
+
+
+}
+ul#image-marker2 {
+    list-style-image: url(./icon.png);
+    list-style-position: inside;
+}
+
+.li6 {
+    width: 200px;
+}
+
+table {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+

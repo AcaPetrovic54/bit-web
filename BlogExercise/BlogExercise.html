@@ -1,0 +1,64 @@
+<!--
+    Home Page content
+● Create a page with two columns
+● Width of the left column is 300px
+● Right column stretches to cover the rest of the screen
+
+● Left column content
+ ○ Logo image with height set to 250px
+ ○ Under the logo, there should be a list of links
+ ○ One of the links should be &quot;Contact&quot;
+ ○ The link should link to &quot;./contact.html&quot; page
+● Right column content
+● There should be two posts in form of groups
+● The first group content:
+ ○ Title
+ ○ Embedded YouTube video
+● The second group content:
+ ○ Title
+ ○ Video (HTML5) that you will find on the web
+ Contact Page content
+● Embedded Google Map on the page
+● Link for getting back to the “Home” page
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <table style="width:100%" bordercolor="yellow" border="3">
+                <tr height> 
+                  <td width="300">
+                      <div id="logo">
+                        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Lions%20cute%20shutterstock_154000256.jpg?itok=DjI3DSO9"  alt="lavovi" height="250">
+                        <ul>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="https://www.wwf.org.uk/learn/fascinating-facts/lions">About</a></li>
+                            <li><a href="https://www.folly-farm.co.uk/zoo/meet-the-zoo-animals/african-lion/">Facts</a></li>
+                        </ul>
+                      </div> 
+                  </td>
+                  <td>
+                      <div class="group_1">
+                          <h3>Embedded YouTube video</h3>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/qnaXJf_yaj8" title="* LION * | Animals For Kids | All Things Animal TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+                      </div>
+                      <br>
+                      <div id="group_2">
+                        <h3>The video element</h3>
+
+                        <video width="400" controls autoplay>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
+                      </div>
+                  </td> 
+                </tr>
+         </table>
+    
+</body>
+</html>

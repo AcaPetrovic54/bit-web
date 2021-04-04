@@ -1,0 +1,60 @@
+.okvir {
+    margin: 100px auto 100px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 400px;
+}
+
+.box {
+    border: 1px solid white;
+    background-color: #efefef;
+    width: 78%;
+    margin: 20px auto;
+    padding: 22px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.fo {
+    color: #293952;
+    font-family: sans-serif;
+}
+
+#sp {
+    color: #ffc600;
+}
+
+#hid {
+    color: #adadad;
+    width: 94%;
+}
+
+.pad {
+    padding: 7px;
+    text-align: left;
+}
+
+.pad1 {
+    padding: 7px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.pad1 > input {
+    background-color: #c63931;
+    border: 0px;
+    color: #f7f7ff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+input {
+    border-color: #adadad;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin: 3px;
+}
+
+.pad1:hover {
+    cursor: url(./220109_mouse-cursor-png.png), auto;
+}

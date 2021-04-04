@@ -1,0 +1,46 @@
+.dot {
+    border: 10px dotted black;
+}
+
+.dash {
+    border: black dashed 10px;
+}
+
+.sol {
+    border: 10px solid black;
+}
+
+.dob {
+    border: 10px double black; 
+}
+
+.gr {
+    border: 10px groove grey;
+}
+
+.rid {
+    border: 10px ridge grey;
+}
+
+.in {
+    border: 10px inset grey;
+}
+
+.ou {
+    border: 10px outset grey;
+}
+
+.no {
+    border: 10px none grey;
+}
+
+.hi {
+    border: 10px hidden grey;
+}
+
+.mix {
+    border-top: dotted 9px;
+    border-right: outset 9px gray;
+    border-left: double 9px gray;
+    border-bottom: groove 9px grey;
+}
