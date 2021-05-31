@@ -1,0 +1,19 @@
+.im1 img {
+    display: block;
+    height: 200px;
+    margin-left: auto;
+}
+
+.im2 img{
+    display: block;
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.im3 img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+}

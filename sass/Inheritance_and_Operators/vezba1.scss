@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    width: 50% + 50%;
+    margin: 10px auto;
+body {
+    border: 3px solid white; 
+    background-color: bisque;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+
+    .red {
+        @extend body;
+        border-color: red; 
+        width: 300px / 960px * 100%;
+        background-color: greenyellow;
+        flex-grow: 1;
+    }
+    .blue {
+        @extend body;
+        border-color: blue;
+        width: 2*20%;
+        background-color: hotpink;
+        flex-grow: 1;
+    }   
+    .green {
+        @extend body;
+        border-color: green;
+        width: 10% + 20%;
+        background-color: indianred;
+        flex-grow: 1;
+    }     
+}
+}

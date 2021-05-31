@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Caveat", cursive;
+}
+
+.myline, header p::after, .action p::after, .action h4::after {
+  display: block;
+  content: "";
+  background: orangered;
+  width: 250px;
+  height: 2px;
+}
+
+header, .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-image: url(https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/6DD8F0FE-F989-409C-A996-22BA48C792C6.jpg?itok=NZeYkMth);
+  height: 600px;
+  font-size: 40px;
+}
+
+header p, .action p {
+  font-size: 50px;
+  color: lightgreen;
+}
+
+@media (max-width: 700px) {
+  header p, .action p {
+    font-size: 15px;
+  }
+}
+
+.action {
+  background-image: url(https://th.bing.com/th/id/OIP.mwEyLWi6G-yiUIeDjd_SOAHaEG?w=306&h=180&c=7&o=5&pid=1.7);
+}
+
+.action h4 {
+  font-size: 50px;
+  color: lightgreen;
+}
+
+.action h4::after {
+  width: 300px;
+}
+
+.uvod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.uvod article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.uvod article img {
+  width: 100%;
+}
+
+.uvod article .text {
+  color: black;
+  padding: 20px;
+}
+
+.uvod article h4 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.galerija {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.galerija article {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.galerija article img {
+  width: 100%;
+}
+
+footer {
+  background: violet;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer a {
+  font-size: 14px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=newstyle.css.map */

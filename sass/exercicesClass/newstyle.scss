@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400&display=swap');
+$bodyFont: 'Open Sans',
+sans-serif;
+$hFont:'Caveat',
+cursive;
+$font:40px;
+$thepadding:80px 0;
+@mixin pozadina($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $bodyFont;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $hFont;
+}
+
+.myline {
+    display: block;
+    content: "";
+    background: orangered;
+    width: 250px;
+    height: 2px;
+}
+
+header {
+    @include pozadina(column);
+    background-image: url(https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/6DD8F0FE-F989-409C-A996-22BA48C792C6.jpg?itok=NZeYkMth);
+    height: 600px;
+    font-size: $font;
+    p {
+        font-size: 50px;
+        color: lightgreen;
+        &::after {
+            @extend .myline;
+        }
+        @media (max-width: 700px) {
+            font-size: 15px;
+        }
+    }
+}
+
+.action {
+    @extend header;
+    background-image: url(https://th.bing.com/th/id/OIP.mwEyLWi6G-yiUIeDjd_SOAHaEG?w=306&h=180&c=7&o=5&pid=1.7);
+    h4 {
+        font-size: 50px;
+        color: lightgreen;
+        &::after {
+            @extend .myline;
+            width: 300px;
+        }
+    }
+}
+
+.uvod {
+    @include pozadina(row);
+    padding: $thepadding;
+    justify-content: space-between;
+    text-align: center;
+    article {
+        flex: 0 0 50%;
+        img {
+            width: 100%;
+        }
+        .text {
+            color: black;
+            padding: 20px;
+        }
+        h4 {
+            font-size: 30px;
+            margin: 20px 0;
+        }
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    article {
+        flex: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    background: violet;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    a {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}

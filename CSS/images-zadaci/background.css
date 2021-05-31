@@ -1,0 +1,7 @@
+body {
+    background-image: url(./lena-denk-vO_RghTzvxE-unsplash.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position-y: center;
+    background-size: cover;
+}

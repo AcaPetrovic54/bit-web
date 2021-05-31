@@ -1,0 +1,23 @@
+@mixin flexCenter ($flexD, $colorT) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexD; 
+    color: $colorT;
+}
+
+header {
+    @include flexCenter(row-reverse, green);
+    background: $colorHeader;
+    color: black;
+    button {
+        color: $colButt;
+        &:hover {
+            background: greenyellow;
+        }
+    }
+
+    h3 {
+        color: $colButt;
+    }
+}

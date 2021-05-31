@@ -1,0 +1,566 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    font-family: "Roboto-Regular", sans-serif;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /*  Header  */
+  .navbar h2 {
+    font-family: "Roboto-Bold";
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .bui {
+    border: 5px solid #777;
+    border-right: none;
+    padding-left: 10px;
+    color: #ff9801;
+  }
+  
+  .est {
+    color: #777;
+  }
+
+  .navbar {
+    margin: 40px 0 56px;
+  }
+
+  nav ul {
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px 0;
+    background-color: #7fc2f7;
+    list-style: none;
+    text-align: center;  
+  }
+
+  nav ul li a {
+    display: block;
+    font-family: "Roboto-Medium", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+  }
+
+  .text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20% 0;
+    background-image: url(./assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text h1 {
+    flex: 1 1;
+    color: #eeeeee;
+    text-align: center;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .submit button {
+    display: block;
+    flex: 1 1;
+    margin: 20px auto 0 auto;
+    background-color: #146eb4;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  /* Main */
+
+  .questions {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  
+  section {
+    margin-top: 32px;
+  }
+  .questions section {
+    margin-top: 32px;
+  }
+  .questions img {
+    width: 100%;
+  }
+  
+  .questions h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* prvi deo */
+  .simbol {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center; 
+  }
+  
+  .crta {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-top: 2px solid black;
+  }
+  
+  .romb {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    margin: 0px 5px;
+    top: -10px;
+    transform: rotate(45deg);
+  }
+
+  
+.naslov {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #7fc2f7;
+    letter-spacing: 1px;
+  }
+  
+  .questions q {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .questions ul {
+    list-style: none;
+    margin: 15px 0;
+  }
+  
+  .questions ul li {
+    padding: 10px 0;
+    color: #777;
+  }
+  
+  .questions ul li span {
+    color: #ff9801;
+  }
+
+
+/* drugi deo */ 
+
+.what {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.ocene {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+}
+  
+.ocena1 {
+    width: 100%;
+    background-color: #7fc2f7;
+    margin: 15px 0;
+    padding: 20px;
+    color: #fff;
+}
+  
+.ocena1 > p {
+    line-height: 2;
+}
+  
+.ocena2 img {
+    width: 100px;
+    border: 3px solid #fff;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+  
+.ocena2 {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+}
+  
+.zvezda p {
+    line-height: 1;
+}
+  
+.ocena1 p > span {
+    color: white;
+    font-size: 20px;
+}
+
+/* treci deo */
+
+.get h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.omot {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.prvi {
+  flex: 1 1;
+  flex-basis: 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+.prvi h3 {
+  color: white;
+}
+
+.prvi img {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+
+.kontakt {
+  background: #2cdd98;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.veza {
+  background: #ff4f81;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mreza {
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.adresa {
+  background: #3369e6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adresa p {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.kuca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #7fc2f7;
+  padding: 0;
+}
+
+.kuca img {
+  display: block;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+/* Mail deo */
+
+.mail h2 {
+  margin: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mail {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.forma {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.forma input,
+.forma textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto-Medium";
+}
+
+.submit2 {
+  border: none;
+  padding: 5px 20px;
+  background: #ff9801;
+  color: #fff;
+}
+
+/* Footer deo */
+
+.donji_deo {
+  background: #212121;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+}
+
+.donji_deo ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 3%;
+}
+
+.donji_deo ul li a {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 11px;
+}
+
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .gornji_deo{
+    height: 720px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gornji_deo {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .text h1 {
+    font-size: 45px;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-bottom: 40%;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    margin-right: 4%;
+    margin-top: 1.5%;
+    justify-content: space-evenly;
+    background: none;
+  }
+
+  .navbar ul li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .bui {
+    border-color: #fff;
+  }
+
+  .est {
+    color: #fff;
+  }
+
+  .who {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .who h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .naslov {
+    margin-top: 0;
+  }
+
+  .who article{
+    flex: 1 1 50%;
+  }
+  .who img {
+    width: 49%;
+    margin-left: 1%;
+  }
+
+  .ocene {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ocene article {
+    width: 48%;
+  }
+
+  .forma {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .forma input {
+    flex-basis: 31%;
+  }
+
+  .submit2 {
+    border-radius: 5%;
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .donji_deo {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: 14px;
+  }
+
+  .donji_deo ul li a{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .questions {
+    width: 95%;
+  }
+
+  .who {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .who article{
+    flex: 1 1 33%;
+  }
+  .who img {
+    flex: 1 1;
+    width: 30%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0;
+  }
+
+  .who h3 {
+    margin-top: 0;
+  }
+
+  .ocene {
+    width: 100%;
+  }
+
+  .ocene article {
+    width: 33%;
+  }
+
+  .get article {
+    flex-basis: 25%;
+  }
+
+  .forma {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .donji_deo {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: 20px;
+  }
+
+  .donji_deo ul li a{
+    font-size: 20px;
+  }
+}
+
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("./assets/fonts/Roboto-Thin.ttf");
+}

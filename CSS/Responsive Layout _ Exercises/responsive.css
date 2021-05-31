@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+}
+
+.main {
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+h1 {
+    display: block;
+    font-family: sans-serif; 
+    float: left;
+}
+
+.top {
+    overflow: hidden;
+    display: block;
+    background-color: white;
+    width: 35%;
+    font-family: sans-serif; 
+    float: right;
+}
+
+.top li {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 20%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    background-color: #428bca;
+    color: white;
+    padding: 15px;
+}
+
+.article1 {
+    
+}

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; 
+    background-color: #eee;
+    color: #444;
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #66c;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+header {
+    border-bottom: 2px solid #66c;
+    margin: 0px 10px 20px 10px;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    background-color: #edc;
+
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jedan,
+.pomeren,
+.lorem,
+.aaa,
+.ccc,
+.spec,
+#flo {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #666;
+    background-color: #ddd;
+    font-size: 9pt;
+}
+
+.pomeren {
+    position: relative;
+    top: 30px;
+    left: 70px;
+    background-color: rgba(255,250,210,0.8);
+}
+
+.spec {
+    position: absolute;
+    top: 112px;
+    left: 100px;
+    background-color: rgba(230,200,255,0.8);
+}
+
+
+table {
+    margin: 0px auto;
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+
+th {
+    border: 1px black solid;
+   
+}
+
+th:nth-child(1)
+{
+  background-color: #ffc;
+}
+
+#cel {
+    background-color: #ffc;
+    color: red;
+    padding: 5px 10px;
+}
+
+#cel1 {
+    background-color: #edc;
+    padding: 5px 10px;
+}
+
+
+
+#flo {
+    float: right;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    font-size: 7pt;
+    width: 170px;
+    height: 170px;
+}
+
+
+
+
+
+
+ol{
+    padding: 2em;
+    border: 2px grey dotted;
+   
+}
+li{
+    background-color: #def;
+    padding: 0.5em;
+    border: 1px #25c solid;
+}
+.pod{
+    background-color: #efc;
+    padding: 0px;
+    border: 1px solid green;
+}

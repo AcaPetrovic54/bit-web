@@ -1,0 +1,16 @@
+$colorHeader: yellow;
+$colButt: olive;
+
+@import "./primer";
+@import "./test";
+.info {
+    @include flexCenter(column, blue);
+}
+
+h4 {
+    @extend header;
+}
+
+header {
+    color: orangered;
+}

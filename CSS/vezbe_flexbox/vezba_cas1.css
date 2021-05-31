@@ -1,0 +1,51 @@
+.container1, .container2, article {
+    border: 1px solid;
+    padding: 3px;
+    background-color: beige;
+}
+
+.container1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container2 {
+    display: flex;
+    margin: 50px auto 10px auto;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.box1 {
+    flex-basis: 50%;
+    border: 1px solid;
+}
+
+.box2 {
+    border: 1px solid;
+}
+
+.box3 {
+    border: 1px solid;
+}
+
+.newbox {
+    margin: 10px 15px;
+    padding: 10px;
+    flex-basis: 25%;
+}
+
+.container3 {
+    margin: 70px auto 0 auto;
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newbox2 {
+    align-items: stretch;
+    flex-basis: 10%;
+}

@@ -1,0 +1,104 @@
+.myline, * body .onama h2::after {
+  display: block;
+  content: "";
+  background: blue;
+  width: 130px;
+  height: 10px;
+  margin: 10px auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+* body {
+  width: 100%;
+}
+
+* body nav .container {
+  border-top: lightgrey 8px solid;
+  font-family: sans-serif;
+  display: block;
+}
+
+* body nav .container img {
+  float: left;
+  padding-left: 40px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 200px;
+}
+
+* body nav .container ul {
+  float: right;
+  list-style: none;
+  padding-top: 20px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  color: lightgray;
+}
+
+* body nav .container ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+* body nav .container ul li a {
+  text-decoration: none;
+}
+
+* body header {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url(http://static1.squarespace.com/static/57b9b98a29687f1ef5c622df/57b9bacc8748e3f017514817/57b9bacf8748e3f017515b3e/1591472351448/00000000000000000000000000000000000000.jpg?format=1500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+* body header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  color: white;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+* body .onama {
+  width: 80%;
+  color: darkblue;
+  font-family: sans-serif;
+}
+
+* body .onama h2 {
+  text-align: center;
+}
+
+* body .onama button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: darkblue;
+  color: white;
+  justify-self: center;
+  padding: 10px;
+}
+
+* body .onama ul {
+  list-style: square;
+}
+/*# sourceMappingURL=putovanje.css.map */

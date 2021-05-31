@@ -1,0 +1,5 @@
+p {
+    @include flexCenter(row, green);
+    background-color: palegreen;
+    width: 100%-33%;
+}
